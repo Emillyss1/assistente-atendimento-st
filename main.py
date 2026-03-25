@@ -17,14 +17,51 @@ if 'pergunta_idx' not in st.session_state:
     st.session_state.acertos = 0
 
 perguntas = [
-    {
-        "situacao": "Um paciente reclama da demora no atendimento de forma ríspida na recepção.",
-        "opcoes": ["A) Informar que deve aguardar", "B) Chamar a segurança", "C) Validar a frustração e oferecer previsão", "D) Ignorar"],
-        "correta": "C",
-        "audio": "pergunta1.mp3"
-    },
-    # Adicione as outras aqui seguindo o mesmo padrão...
-]
+        {
+            "situacao": "Um paciente reclama da demora no atendimento de forma ríspida na recepção.",
+            "opcoes": [
+                "A) Informar que o sistema está lento e que ele deve aguardar sentado.",
+                "B) Chamar a segurança, pois ele está alterando o clima organizacional.",
+                "C) Validar a frustração dele, explicar o fluxo e oferecer uma previsão real.",
+                "D) Ignorar as reclamações para não gerar mais conflito."
+            ],
+            "correta": "C",
+            "audio": "audio/situacao1.mp3"
+        },
+        {
+            "situacao": "Um colega de trabalho está sobrecarregado e cometendo erros de digitação.",
+            "opcoes": [
+                "A) Reportar os erros imediatamente à supervisão para evitar falhas.",
+                "B) Praticar a Sinergia de Equipe, oferecendo apoio para reorganizar as tarefas.",
+                "C) Fazer o trabalho dele em silêncio para não causar constrangimento.",
+                "D) Dizer que ele precisa de um curso de reciclagem urgente."
+            ],
+            "correta": "B",
+            "audio": "audio/situacao2.mp3"
+        },
+        {
+            "situacao": "A família de um paciente quer saber informações que você não tem autorização para dar.",
+            "opcoes": [
+                "A) Dizer apenas: 'Não sou autorizado a falar, pergunte ao médico'.",
+                "B) Inventar uma informação genérica para acalmar a família.",
+                "C) Praticar o Acolhimento: ouvir a dúvida e encaminhá-los ao profissional responsável.",
+                "D) Pedir para que a família se retire do setor imediatamente."
+            ],
+            "correta": "C",
+            "audio": "audio/situacao3.mp3"
+        },
+        {
+            "situacao": "Em uma reunião de equipe, surge uma ideia para melhorar a jornada do paciente.",
+            "opcoes": [
+                "A) Rejeitar, pois as normas da instituição já são consolidadas.",
+                "B) Deixar que apenas os médicos decidam, pois são as autoridades.",
+                "C) Valorizar o Protagonismo e a Transversalidade, debatendo a ideia com todos.",
+                "D) Aceitar apenas se a ideia não gerar mais trabalho para a equipe."
+            ],
+            "correta": "C",
+            "audio": "audio/situacao4.mp3"
+        }
+    ]
 
 st.title("🏥 Simulador de Atendimento SPA")
 st.subheader("Protagonismo e Humanização no Einstein")
