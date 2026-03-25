@@ -26,7 +26,7 @@ perguntas = [
                 "D) Ignorar as reclamações para não gerar mais conflito."
             ],
             "correta": "C",
-            "audio": "audio/situacao1.mp3"
+            "audio": "Pergunta1.mp3"
         },
         {
             "situacao": "Um colega de trabalho está sobrecarregado e cometendo erros de digitação.",
@@ -37,7 +37,7 @@ perguntas = [
                 "D) Dizer que ele precisa de um curso de reciclagem urgente."
             ],
             "correta": "B",
-            "audio": "audio/situacao2.mp3"
+            "audio": "Pergunta2.mp3"
         },
         {
             "situacao": "A família de um paciente quer saber informações que você não tem autorização para dar.",
@@ -48,7 +48,7 @@ perguntas = [
                 "D) Pedir para que a família se retire do setor imediatamente."
             ],
             "correta": "C",
-            "audio": "audio/situacao3.mp3"
+            "audio": "Pergunta3.mp3"
         },
         {
             "situacao": "Em uma reunião de equipe, surge uma ideia para melhorar a jornada do paciente.",
@@ -59,7 +59,7 @@ perguntas = [
                 "D) Aceitar apenas se a ideia não gerar mais trabalho para a equipe."
             ],
             "correta": "C",
-            "audio": "audio/situacao4.mp3"
+            "audio": "Pergunta4.mp3"
         }
     ]
 
